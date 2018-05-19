@@ -1,0 +1,6 @@
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.deps.json
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.dll
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.AssemblyInfo.cs

@@ -1,0 +1,6 @@
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Debug\netcoreapp2.0\Jorge.Inventory.Repositories.deps.json
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Debug\netcoreapp2.0\Jorge.Inventory.Repositories.dll
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Debug\netcoreapp2.0\Jorge.Inventory.Repositories.csprojAssemblyReference.cache
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Debug\netcoreapp2.0\Jorge.Inventory.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Debug\netcoreapp2.0\Jorge.Inventory.Repositories.AssemblyInfoInputs.cache
+C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Debug\netcoreapp2.0\Jorge.Inventory.Repositories.AssemblyInfo.cs
