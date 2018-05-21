@@ -1,0 +1,54 @@
+﻿@model  Jorge.Inventory.Web.App.Models.Product.ProductViewModel
+@{
+    ViewData["Title"] = "Add Product";
+    ViewBag.PageTitle = "Add";
+}
+
+
+
+@{await Html.RenderPartialAsync("_PageHeader");}
+
+@if (ViewBag.IsSuccess != null && ViewBag.IsSuccess == false)
+{
+    <div class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    </div>
+}
+
+@if (ViewBag.IsSuccess != null && ViewBag.IsSuccess == true)
+{
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <strong>Product</strong>has been saved successfully!
+    </div>
+
+
+
+}
+
+<form asp-action="Create" class="form-horizontal" method="post" enctype="multipart/form-data">
+
+    @Html.Partial("_form", Model)
+
+    <div class="form-actions">
+        <button type="submit" class="btn btn-success"> <i class="fa fa-check"></i> Save</button>
+        <a class="btn btn-inverse" asp-action="Index"> Cancel</a>
+    </div>
+</form>
+
+
+
+
+@{await Html.RenderPartialAsync("_PageFooter");}
+
+@section Styles {
+    @*<link href="~/css/lib/dropzone/dropzone.css" rel="stylesheet">*@
+}
+
+@section Scripts {
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    @*<script src="~/lib/dropzone/dropzone.js"></script>*@
+}

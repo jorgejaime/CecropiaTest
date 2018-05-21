@@ -1,0 +1,16 @@
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Jorge.Inventory.Web.App
+--content-root=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Home\Index.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Products\Create.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Products\Edit.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Products\Index.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Products\_form.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Shared\Error.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Shared\_Layout.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Shared\_PageFooter.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Shared\_PageHeader.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\_ViewImports.cshtml
+--file=D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Web.App\Views\_ViewStart.cshtml

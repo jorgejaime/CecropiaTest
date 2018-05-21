@@ -1,0 +1,16 @@
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.IServices.deps.json
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.IServices.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.IServices.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.Infrastructure.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.Model.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.Infrastructure.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\bin\Debug\netcoreapp2.0\Jorge.Inventory.Model.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\obj\Debug\netcoreapp2.0\Jorge.Inventory.IServices.csprojAssemblyReference.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\obj\Debug\netcoreapp2.0\Jorge.Inventory.IServices.csproj.CoreCompileInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\obj\Debug\netcoreapp2.0\Jorge.Inventory.IServices.AssemblyInfoInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\obj\Debug\netcoreapp2.0\Jorge.Inventory.IServices.AssemblyInfo.cs
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\obj\Debug\netcoreapp2.0\Jorge.Inventory.IServices.csproj.CopyComplete
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\obj\Debug\netcoreapp2.0\Jorge.Inventory.IServices.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.IServices\obj\Debug\netcoreapp2.0\Jorge.Inventory.IServices.pdb

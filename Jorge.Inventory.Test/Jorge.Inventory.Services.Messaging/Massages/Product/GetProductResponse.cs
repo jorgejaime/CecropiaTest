@@ -6,6 +6,6 @@ namespace Jorge.Inventory.Services.Messaging.Massages.Product
 { 
     public class GetProductResponse
     {
-        public ProductView Role { get; set; }
+        public ProductView Product { get; set; }
     }
 }

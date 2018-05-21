@@ -1,0 +1,9 @@
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\bin\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.deps.json
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\bin\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\bin\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\obj\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.csprojAssemblyReference.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\obj\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\obj\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.AssemblyInfoInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\obj\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.AssemblyInfo.cs
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\obj\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Infrastructure\obj\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.pdb

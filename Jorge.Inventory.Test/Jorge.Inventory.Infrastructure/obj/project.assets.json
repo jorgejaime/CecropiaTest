@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\Jorge.Inventory.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\Jorge.Inventory.Infrastructure.csproj",
       "projectName": "Jorge.Inventory.Infrastructure",
-      "projectPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\Jorge.Inventory.Infrastructure.csproj",
+      "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\Jorge.Inventory.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Gloriana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\obj\\",
+      "outputPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -761,9 +761,22 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "Jorge.Inventory.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Jorge.Inventory.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jorge.Inventory.Infrastructure.dll": {}
+        }
+      },
       "Jorge.Inventory.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Jorge.Inventory.Infrastructure": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Jorge.Inventory.Model.dll": {}
         },
@@ -3419,6 +3432,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "Jorge.Inventory.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Jorge.Inventory.Infrastructure/Jorge.Inventory.Infrastructure.csproj",
+      "msbuildProject": "../Jorge.Inventory.Infrastructure/Jorge.Inventory.Infrastructure.csproj"
+    },
     "Jorge.Inventory.Model/1.0.0": {
       "type": "project",
       "path": "../Jorge.Inventory.Model/Jorge.Inventory.Model.csproj",
@@ -3439,11 +3457,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Services.Messaging\\Jorge.Inventory.Services.Messaging.csproj",
+      "projectUniqueName": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Services.Messaging\\Jorge.Inventory.Services.Messaging.csproj",
       "projectName": "Jorge.Inventory.Services.Messaging",
-      "projectPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Services.Messaging\\Jorge.Inventory.Services.Messaging.csproj",
+      "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Services.Messaging\\Jorge.Inventory.Services.Messaging.csproj",
       "packagesPath": "C:\\Users\\Gloriana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Services.Messaging\\obj\\",
+      "outputPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Services.Messaging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3462,8 +3480,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj": {
-              "projectPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj"
+            "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj": {
+              "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj"
             }
           }
         }

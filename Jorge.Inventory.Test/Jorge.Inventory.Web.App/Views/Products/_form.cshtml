@@ -1,0 +1,108 @@
+﻿@model  Jorge.Inventory.Web.App.Models.Product.ProductViewModel
+
+<input asp-for="Id" hidden />
+
+
+<div class="form-body">
+    <h3 class="box-title m-t-40">Product Information </h3>
+    <hr>
+    <div class="row p-t-20">
+
+	<div class="col-md-6">
+            <div class="form-group has-danger">
+                <label class="control-label" asp-for="Image"></label>
+                <div class="dropzone">
+                    <div class="fallback">
+                        <input asp-for="File" type="file"/>
+                    </div>
+                </div>
+                <span asp-validation-for="Image" class="text-danger col-12"></span>
+            </div>
+        </div>
+
+			<div class="col-md-6">
+            <div class="form-group has-danger">
+                
+               <img  height='42' width='42' src='data: image/jpeg;base64,@Model.Image'/>
+            </div>
+        </div>
+
+		
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="form-group">
+                <label class="control-label" asp-for="Sku"></label>
+                <input asp-for="Sku" type="text" class="form-control" >
+                <small class="form-control-feedback"></small>
+                <span asp-validation-for="Sku" class="text-danger col-12"></span>
+            </div>
+        </div>
+        <!--/span-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="form-group has-danger">
+                <label class="control-label" asp-for="Description"></label>
+                <input asp-for="Description" type="text" class="form-control form-control-danger" >
+                <small class="form-control-feedback"></small>
+                <span asp-validation-for="Description" class="text-danger col-12"></span>
+            </div>
+        </div>
+        <!--/span-->
+
+		<div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="form-group has-danger">
+                <label class="control-label" asp-for="QuantityStock"></label>
+                <input asp-for="QuantityStock" type="text"  class="form-control form-control-danger">
+                <small class="form-control-feedback"></small>
+                <span asp-validation-for="QuantityStock" class="text-danger col-12"></span>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="form-group has-danger">
+                <label class="control-label" asp-for="ApplyTaxes"></label>
+                <input asp-for="ApplyTaxes" type="checkbox"  class="form-control form-control-danger">
+                <small class="form-control-feedback"></small>
+                <span asp-validation-for="ApplyTaxes" class="text-danger col-12"></span>
+            </div>
+        </div>
+
+     
+
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label" asp-for="FinalPrice"></label>
+                <input asp-for="FinalPrice" type="text" class="form-control">
+                <span asp-validation-for="FinalPrice" class="text-danger col-12"></span>
+            </div>
+        </div>
+        <!--/span-->
+        <div class="col-md-6">
+            <div class="form-group has-danger">
+                <label class="control-label" asp-for="RegularPrice"></label>
+                <input asp-for="RegularPrice" type="text"  class="form-control form-control-danger">
+                <span asp-validation-for="RegularPrice" class="text-danger col-12"></span>
+            </div>
+        </div>
+        <!--/span-->
+          <div class="col-md-6">
+            <div class="form-group has-danger">
+                <label class="control-label" asp-for="Location"></label>
+                <input asp-for="Location" type="text" class="form-control form-control-danger">
+                <span asp-validation-for="Location" class="text-danger col-12"></span>
+            </div>
+        </div>
+        <!--/span-->
+        <div class="col-md-6">
+            <div class="form-group has-danger">
+                <label class="control-label" asp-for="TaxRate"></label>
+                <input asp-for="TaxRate" type="text" class="form-control form-control-danger">
+                <span asp-validation-for="TaxRate" class="text-danger col-12"></span>
+            </div>
+        </div>
+
+        <!--/span-->
+    </div>
+</div>
+
+
+

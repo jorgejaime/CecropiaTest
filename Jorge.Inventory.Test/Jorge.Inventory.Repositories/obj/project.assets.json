@@ -16,6 +16,30 @@
           "lib/netstandard2.0/Dapper.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -389,6 +413,15 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Security.AccessControl/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -474,6 +507,16 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "Jorge.Inventory.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Jorge.Inventory.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jorge.Inventory.Infrastructure.dll": {}
+        }
+      },
       "Jorge.Inventory.IRepositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -490,6 +533,9 @@
       "Jorge.Inventory.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Jorge.Inventory.Infrastructure": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Jorge.Inventory.Model.dll": {}
         },
@@ -513,6 +559,29 @@
         "lib/netstandard1.3/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+      "sha512": "IoTZQU9aQOHr9zQbwozyzWq25eFbu/EcUZnPAMum6hh0Nl2RuM7ieziNLk3xk+c2g8YnnmxiA3VEvVaCFYCoTQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.2",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "sha512": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
       ]
     },
     "Microsoft.NETCore.App/2.0.0": {
@@ -1595,6 +1664,27 @@
         "system.runtime.nuspec"
       ]
     },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Security.AccessControl/4.4.0": {
       "sha512": "2NRFPX/V81ucKQmqNgGBZrKGH/5ejsvivSGMRum0SMgPnJxwhuNkzVS1+7gC3R2X0f57CtwrPrXPPSe6nOp82g==",
       "type": "package",
@@ -1849,6 +1939,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "Jorge.Inventory.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Jorge.Inventory.Infrastructure/Jorge.Inventory.Infrastructure.csproj",
+      "msbuildProject": "../Jorge.Inventory.Infrastructure/Jorge.Inventory.Infrastructure.csproj"
+    },
     "Jorge.Inventory.IRepositories/1.0.0": {
       "type": "project",
       "path": "../Jorge.Inventory.IRepositories/Jorge.Inventory.IRepositories.csproj",
@@ -1865,6 +1960,7 @@
       "Dapper >= 1.50.5",
       "Jorge.Inventory.IRepositories >= 1.0.0",
       "Jorge.Inventory.Model >= 1.0.0",
+      "Microsoft.Extensions.Configuration.Abstractions >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -1875,11 +1971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Repositories\\Jorge.Inventory.Repositories.csproj",
+      "projectUniqueName": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Repositories\\Jorge.Inventory.Repositories.csproj",
       "projectName": "Jorge.Inventory.Repositories",
-      "projectPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Repositories\\Jorge.Inventory.Repositories.csproj",
+      "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Repositories\\Jorge.Inventory.Repositories.csproj",
       "packagesPath": "C:\\Users\\Gloriana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Repositories\\obj\\",
+      "outputPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1898,11 +1994,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.IRepositories\\Jorge.Inventory.IRepositories.csproj": {
-              "projectPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.IRepositories\\Jorge.Inventory.IRepositories.csproj"
+            "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.IRepositories\\Jorge.Inventory.IRepositories.csproj": {
+              "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.IRepositories\\Jorge.Inventory.IRepositories.csproj"
             },
-            "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj": {
-              "projectPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj"
+            "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj": {
+              "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj"
             }
           }
         }
@@ -1919,6 +2015,10 @@
           "Dapper": {
             "target": "Package",
             "version": "[1.50.5, )"
+          },
+          "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "[2.0.2, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Jorge.Inventory.Infrastructure\Jorge.Inventory.Infrastructure.csproj" />
+    <ProjectReference Include="..\Jorge.Inventory.Services.Messaging\Jorge.Inventory.Services.Messaging.csproj" />
+  </ItemGroup>
+
 </Project>

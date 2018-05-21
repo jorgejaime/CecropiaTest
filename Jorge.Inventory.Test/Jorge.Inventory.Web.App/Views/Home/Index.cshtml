@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    ViewBag.PageTitle = "Bienvenido";
+}
+
+
+
+@{await Html.RenderPartialAsync("_PageHeader");}
+
+<div class="form-body">
+    <h3 class="box-title m-t-40">Inventory App</h3>
+    <hr>
+    <div class="row p-t-20">
+        <p></p>
+        <!--/span-->
+    </div>
+</div>
+
+@{await Html.RenderPartialAsync("_PageFooter");}
+
+@section Styles {
+    <style></style>
+}
+
+@section Scripts {
+
+
+}

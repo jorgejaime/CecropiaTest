@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Jorge.Inventory.IRepositories/1.0.0": {
+        "dependencies": {
+          "Jorge.Inventory.Model": "1.0.0"
+        },
+        "runtime": {
+          "Jorge.Inventory.IRepositories.dll": {}
+        }
+      },
+      "Jorge.Inventory.Infrastructure/1.0.0": {
+        "runtime": {
+          "Jorge.Inventory.Infrastructure.dll": {}
+        }
+      },
+      "Jorge.Inventory.Model/1.0.0": {
+        "dependencies": {
+          "Jorge.Inventory.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Jorge.Inventory.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jorge.Inventory.IRepositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jorge.Inventory.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jorge.Inventory.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

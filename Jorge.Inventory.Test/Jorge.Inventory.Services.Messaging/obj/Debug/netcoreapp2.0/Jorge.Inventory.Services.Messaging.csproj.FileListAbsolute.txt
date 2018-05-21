@@ -4,3 +4,17 @@ C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Mes
 C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.csproj.CoreCompileInputs.cache
 C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.AssemblyInfoInputs.cache
 C:\Users\Gloriana\source\repos\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.AssemblyInfo.cs
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.deps.json
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Infrastructure.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Model.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Model.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\bin\Debug\netcoreapp2.0\Jorge.Inventory.Infrastructure.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.csprojAssemblyReference.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.csproj.CoreCompileInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.AssemblyInfoInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.AssemblyInfo.cs
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.csproj.CopyComplete
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Services.Messaging\obj\Debug\netcoreapp2.0\Jorge.Inventory.Services.Messaging.pdb

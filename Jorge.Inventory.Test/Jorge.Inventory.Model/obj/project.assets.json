@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Jorge.Inventory.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Jorge.Inventory.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jorge.Inventory.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Jorge.Inventory.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Jorge.Inventory.Infrastructure/Jorge.Inventory.Infrastructure.csproj",
+      "msbuildProject": "../Jorge.Inventory.Infrastructure/Jorge.Inventory.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Jorge.Inventory.Infrastructure >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -670,11 +686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj",
+      "projectUniqueName": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj",
       "projectName": "Jorge.Inventory.Model",
-      "projectPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj",
+      "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\Jorge.Inventory.Model.csproj",
       "packagesPath": "C:\\Users\\Gloriana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gloriana\\source\\repos\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\obj\\",
+      "outputPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\Jorge.Inventory.Infrastructure.csproj": {
+              "projectPath": "D:\\Bi\\Repos\\CecropiaTest\\Jorge.Inventory.Test\\Jorge.Inventory.Infrastructure\\Jorge.Inventory.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

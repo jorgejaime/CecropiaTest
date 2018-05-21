@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Jorge.Inventory.Infrastructure.Domain;
+using System;
 
 namespace Jorge.Inventory.Model
 {
-    public class Product
+    public class Product : EntityBase
     {
         public int Id { get; set; }
         public string Sku { get; set; }
@@ -15,5 +16,9 @@ namespace Jorge.Inventory.Model
         public int Location { get; set; }
         public byte[] Image { get; set; }
 
+        protected override void Validate()
+        {
+
+        }
     }
 }

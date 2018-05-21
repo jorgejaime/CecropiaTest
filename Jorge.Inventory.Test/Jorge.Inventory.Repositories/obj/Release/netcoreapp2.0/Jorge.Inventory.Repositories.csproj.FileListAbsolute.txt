@@ -1,0 +1,16 @@
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.Repositories.deps.json
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.Repositories.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.Repositories.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.IRepositories.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.Model.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.IRepositories.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.Model.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\bin\Release\netcoreapp2.0\Jorge.Inventory.Infrastructure.pdb
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Release\netcoreapp2.0\Jorge.Inventory.Repositories.csprojAssemblyReference.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Release\netcoreapp2.0\Jorge.Inventory.Repositories.csproj.CoreCompileInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Release\netcoreapp2.0\Jorge.Inventory.Repositories.AssemblyInfoInputs.cache
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Release\netcoreapp2.0\Jorge.Inventory.Repositories.AssemblyInfo.cs
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Release\netcoreapp2.0\Jorge.Inventory.Repositories.csproj.CopyComplete
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Release\netcoreapp2.0\Jorge.Inventory.Repositories.dll
+D:\Bi\Repos\CecropiaTest\Jorge.Inventory.Test\Jorge.Inventory.Repositories\obj\Release\netcoreapp2.0\Jorge.Inventory.Repositories.pdb

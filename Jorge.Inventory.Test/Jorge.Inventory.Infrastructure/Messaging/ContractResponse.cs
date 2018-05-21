@@ -2,9 +2,10 @@
 
 namespace Jorge.Inventory.Infrastructure.Messaging
 {
-    public class ContractResponse<T>   where T : class
+    public class ContractResponse<T> where T : class
     {
-        /// <summary>
+
+         /// <summary>
         /// Result set of information to return
         /// </summary>
         public T Data { get; set; }
@@ -19,11 +20,11 @@ namespace Jorge.Inventory.Infrastructure.Messaging
         /// </summary>
         public bool IsValid { get; set; }
 
-       
+
         /// <summary>
         /// The login result message
         /// </summary>
-        public string[] ErrorMessages { get; set; }
+        public List<string> ErrorMessages { get; set; }
 
     }
 }

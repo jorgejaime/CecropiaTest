@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Jorge.Inventory.Infrastructure.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -56,7 +57,7 @@ namespace Jorge.Inventory.Infrastructure.Messaging
             return new ContractResponse<TResponse>
             {
                 Data = data,
-                ErrorMessages = new[] { "" },
+                ErrorMessages = new List<string> { "" },
                 IsValid = true,
             };
         }
@@ -74,8 +75,7 @@ namespace Jorge.Inventory.Infrastructure.Messaging
             return new ContractResponse<TResponse>
             {
                 Data = data,
-                ErrorMessages = new[] { errorMessage },
-                DataCount = data == null ? 0 : 1,
+                ErrorMessages = new List<string> { errorMessage },
                 IsValid = false,
             };
         }
@@ -88,7 +88,7 @@ namespace Jorge.Inventory.Infrastructure.Messaging
             return new ContractResponse<TResponse>
             {
                 Data = data,
-                ErrorMessages = new[] { ex.Message },
+                ErrorMessages = new List<string> { ex.Message },
                 IsValid = false,
             };
         }
@@ -102,9 +102,8 @@ namespace Jorge.Inventory.Infrastructure.Messaging
 
             return new ContractResponse<TResponse>
             {
-                //Data = new TResponse(),
-                ErrorMessages = new[] { ex.Message },
-                DataCount = 0,
+                Data =  default(TResponse),
+                ErrorMessages = new List<string> { ex.Message },
                 IsValid = false,
             };
         }
@@ -116,8 +115,7 @@ namespace Jorge.Inventory.Infrastructure.Messaging
             return new ContractResponse<TResponse>
             {
                 Data = data,
-                ErrorMessages = brokenRules.Select(b => b.Rule).ToArray(),
-                DataCount = 0,
+                ErrorMessages = brokenRules.Select(b => b.Rule).ToList(),
                 IsValid = false,
             };
         }
